@@ -44,7 +44,7 @@ namespace Álgebra
 
         private void x4ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Det4 nuevo = new Det4();
+            g nuevo = new g();
             nuevo.MdiParent = this;
             nuevo.Show();
         }

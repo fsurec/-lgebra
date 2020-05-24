@@ -96,6 +96,9 @@
     <EmbeddedResource Include="Det3.resx">
       <DependentUpon>Det3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Det4.resx">
+      <DependentUpon>Det4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
