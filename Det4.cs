@@ -53,12 +53,14 @@ namespace Álgebra
             c3 = H * ((I * N) - (M * J));
             cres = c1 + c2 + c3;
 
-            d1 = E * ((J * O) - (N - K));
+            d1 = E * ((J * O) - (N * K));
             d2 = -F*((I * O) - (M * K));
             d3 = G*((I * N) - (M * J));
             dres = d1 + d2 + d3;
 
-            total = ares - bres + cres - dres;
+            total = (A*ares) +(-B* bres) + (C*cres) +(D*- dres);
+
+            resu.Text = total.ToString();
         }
     }
 }
